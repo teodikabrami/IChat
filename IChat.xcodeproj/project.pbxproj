@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61EABBB5ACC1B3191D19F5C5 /* Pods_IChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487AD10FECD2F1DC5576A9E7 /* Pods_IChat.framework */; };
+		930A7B9A214BCDB900C5766C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A7B99214BCDB900C5766C /* LoginVC.swift */; };
+		930A7B9C214BD0FE00C5766C /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A7B9B214BD0FE00C5766C /* CreateAccountVC.swift */; };
 		930AF2ED214BB999004DCA2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930AF2EC214BB999004DCA2E /* AppDelegate.swift */; };
-		930AF2EF214BB999004DCA2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930AF2EE214BB999004DCA2E /* ViewController.swift */; };
 		930AF2F2214BB999004DCA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930AF2F0214BB999004DCA2E /* Main.storyboard */; };
 		930AF2F4214BB99B004DCA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930AF2F3214BB99B004DCA2E /* Assets.xcassets */; };
 		930AF2F7214BB99B004DCA2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930AF2F5214BB99B004DCA2E /* LaunchScreen.storyboard */; };
+		9310E0F3215E1B2400EE3EF9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9310E0F2215E1B2400EE3EF9 /* CircleImage.swift */; };
+		9318D9FF215CED2F00148731 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9318D9FE215CED2F00148731 /* AuthService.swift */; };
+		9318DA01215CF66000148731 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9318DA00215CF66000148731 /* RoundedButton.swift */; };
+		9318DA03215D000500148731 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9318DA02215D000500148731 /* UserDataService.swift */; };
+		9318DA05215D094B00148731 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9318DA04215D094B00148731 /* AvatarPickerVC.swift */; };
+		9318DA07215D0B6100148731 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9318DA06215D0B6100148731 /* AvatarCell.swift */; };
+		933A99B5214BBC5800CD13DB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A99B3214BBC5800CD13DB /* SWRevealViewController.m */; };
+		933A99BA214BBE4800CD13DB /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A99B9214BBE4800CD13DB /* ChatVC.swift */; };
+		933A99BC214BBE5800CD13DB /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A99BB214BBE5800CD13DB /* ChannelVC.swift */; };
+		933A99BE214BC2AD00CD13DB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A99BD214BC2AD00CD13DB /* GradientView.swift */; };
+		933A99C1214BCA0F00CD13DB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A99C0214BCA0F00CD13DB /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		487AD10FECD2F1DC5576A9E7 /* Pods_IChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		930A7B99214BCDB900C5766C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = IChat/Controller/LoginVC.swift; sourceTree = SOURCE_ROOT; };
+		930A7B9B214BD0FE00C5766C /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		930AF2E9214BB999004DCA2E /* IChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930AF2EC214BB999004DCA2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		930AF2EE214BB999004DCA2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		930AF2F1214BB999004DCA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		930AF2F3214BB99B004DCA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930AF2F6214BB99B004DCA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930AF2F8214BB99B004DCA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9310E0F2215E1B2400EE3EF9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		9318D9FE215CED2F00148731 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		9318DA00215CF66000148731 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		9318DA02215D000500148731 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		9318DA04215D094B00148731 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		9318DA06215D0B6100148731 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		933A99B2214BBC5600CD13DB /* IChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		933A99B3214BBC5800CD13DB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		933A99B4214BBC5800CD13DB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		933A99B9214BBE4800CD13DB /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		933A99BB214BBE5800CD13DB /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		933A99BD214BC2AD00CD13DB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		933A99C0214BCA0F00CD13DB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CFA712A26DE0D83C12F9ECD6 /* Pods-IChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-IChat/Pods-IChat.release.xcconfig"; sourceTree = "<group>"; };
+		D776610CD9ED6034678CCE1A /* Pods-IChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IChat/Pods-IChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61EABBB5ACC1B3191D19F5C5 /* Pods_IChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3F79A1FF815CA2483F2963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				487AD10FECD2F1DC5576A9E7 /* Pods_IChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A6BD4E79C082D1B85A6FCAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D776610CD9ED6034678CCE1A /* Pods-IChat.debug.xcconfig */,
+				CFA712A26DE0D83C12F9ECD6 /* Pods-IChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		930AF2E0214BB999004DCA2E = {
 			isa = PBXGroup;
 			children = (
 				930AF2EB214BB999004DCA2E /* IChat */,
 				930AF2EA214BB999004DCA2E /* Products */,
+				2A6BD4E79C082D1B85A6FCAE /* Pods */,
+				0F3F79A1FF815CA2483F2963 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +104,76 @@
 		930AF2EB214BB999004DCA2E /* IChat */ = {
 			isa = PBXGroup;
 			children = (
+				9318D9FD215CED1500148731 /* Services */,
+				933A99BF214BCA0000CD13DB /* Utility */,
+				933A99B6214BBDE300CD13DB /* Model */,
+				933A99B7214BBDEA00CD13DB /* View */,
+				933A99B8214BBDF300CD13DB /* Controller */,
+				933A99B1214BBBFA00CD13DB /* Supporting Files */,
 				930AF2EC214BB999004DCA2E /* AppDelegate.swift */,
-				930AF2EE214BB999004DCA2E /* ViewController.swift */,
 				930AF2F0214BB999004DCA2E /* Main.storyboard */,
 				930AF2F3214BB99B004DCA2E /* Assets.xcassets */,
 				930AF2F5214BB99B004DCA2E /* LaunchScreen.storyboard */,
 				930AF2F8214BB99B004DCA2E /* Info.plist */,
 			);
 			path = IChat;
+			sourceTree = "<group>";
+		};
+		9318D9FD215CED1500148731 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9318D9FE215CED2F00148731 /* AuthService.swift */,
+				9318DA02215D000500148731 /* UserDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		933A99B1214BBBFA00CD13DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				933A99B4214BBC5800CD13DB /* SWRevealViewController.h */,
+				933A99B3214BBC5800CD13DB /* SWRevealViewController.m */,
+				933A99B2214BBC5600CD13DB /* IChat-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		933A99B6214BBDE300CD13DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		933A99B7214BBDEA00CD13DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				933A99BD214BC2AD00CD13DB /* GradientView.swift */,
+				9318DA00215CF66000148731 /* RoundedButton.swift */,
+				9318DA06215D0B6100148731 /* AvatarCell.swift */,
+				9310E0F2215E1B2400EE3EF9 /* CircleImage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		933A99B8214BBDF300CD13DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				930A7B99214BCDB900C5766C /* LoginVC.swift */,
+				933A99B9214BBE4800CD13DB /* ChatVC.swift */,
+				933A99BB214BBE5800CD13DB /* ChannelVC.swift */,
+				930A7B9B214BD0FE00C5766C /* CreateAccountVC.swift */,
+				9318DA04215D094B00148731 /* AvatarPickerVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		933A99BF214BCA0000CD13DB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				933A99C0214BCA0F00CD13DB /* Constants.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 930AF2FB214BB99B004DCA2E /* Build configuration list for PBXNativeTarget "IChat" */;
 			buildPhases = (
+				5FAC96EDD194C4D6E8D5793D /* [CP] Check Pods Manifest.lock */,
 				930AF2E5214BB999004DCA2E /* Sources */,
 				930AF2E6214BB999004DCA2E /* Frameworks */,
 				930AF2E7214BB999004DCA2E /* Resources */,
+				A452F335500C5FDB70A6F5F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +210,7 @@
 				TargetAttributes = {
 					930AF2E8214BB999004DCA2E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -130,13 +245,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FAC96EDD194C4D6E8D5793D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A452F335500C5FDB70A6F5F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IChat/Pods-IChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IChat/Pods-IChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		930AF2E5214BB999004DCA2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				930AF2EF214BB999004DCA2E /* ViewController.swift in Sources */,
+				933A99BC214BBE5800CD13DB /* ChannelVC.swift in Sources */,
+				9318DA05215D094B00148731 /* AvatarPickerVC.swift in Sources */,
+				9318DA01215CF66000148731 /* RoundedButton.swift in Sources */,
+				9310E0F3215E1B2400EE3EF9 /* CircleImage.swift in Sources */,
+				933A99BA214BBE4800CD13DB /* ChatVC.swift in Sources */,
+				9318DA03215D000500148731 /* UserDataService.swift in Sources */,
+				930A7B9C214BD0FE00C5766C /* CreateAccountVC.swift in Sources */,
+				9318D9FF215CED2F00148731 /* AuthService.swift in Sources */,
+				930A7B9A214BCDB900C5766C /* LoginVC.swift in Sources */,
+				933A99BE214BC2AD00CD13DB /* GradientView.swift in Sources */,
+				9318DA07215D0B6100148731 /* AvatarCell.swift in Sources */,
 				930AF2ED214BB999004DCA2E /* AppDelegate.swift in Sources */,
+				933A99B5214BBC5800CD13DB /* SWRevealViewController.m in Sources */,
+				933A99C1214BCA0F00CD13DB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +450,10 @@
 		};
 		930AF2FC214BB99B004DCA2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D776610CD9ED6034678CCE1A /* Pods-IChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DGYJ382F4;
 				INFOPLIST_FILE = IChat/Info.plist;
@@ -289,6 +463,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TeodikAbrami.app.IChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IChat/Supporting Files/IChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,8 +472,10 @@
 		};
 		930AF2FD214BB99B004DCA2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA712A26DE0D83C12F9ECD6 /* Pods-IChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DGYJ382F4;
 				INFOPLIST_FILE = IChat/Info.plist;
@@ -307,6 +485,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TeodikAbrami.app.IChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IChat/Supporting Files/IChat-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

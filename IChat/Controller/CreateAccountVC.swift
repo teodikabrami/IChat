@@ -84,9 +84,14 @@ class CreateAccountVC: UIViewController {
     
     func setupView() {
         // attribute ha range place holder avaz she
+        userNameText.attributedPlaceholder = NSAttributedString(string: "UserName", attributes: [NSAttributedStringKey.foregroundColor : UIColor.blue])
+        passText.attributedPlaceholder = NSAttributedString(string: "Password", attributes: [NSAttributedStringKey.foregroundColor : UIColor.blue])
+        emailText.attributedPlaceholder = NSAttributedString(string: "Email", attributes: [NSAttributedStringKey.foregroundColor : UIColor.blue])
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTap))
         view.addGestureRecognizer(tap)
     }
+    
+    
     
     @objc func handleTap() {
        // userNameText.resignFirstResponder()
